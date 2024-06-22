@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .background {
+        .toxic {
+            width: 100%;
+            position: absolute;
+            z-index: -2;
+            height: 100vh;
+        }
+
+        .partial-color {
+            background-image: linear-gradient(to right top, #340057b2, #93ee00d2);
+            height: 100vh;
+            width: 70vw;
+            position: absolute;
+            z-index: -1;
+            right: 0;
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        position: relative;
+        transform: scale(0.75);
+
+        .left, .right {
+            width: 40vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            animation: textAnimation 5s infinite;
+        }
+
+        .left::before, .right::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: url('../hero-4/assets/img/rugby.jpg') no-repeat center center / cover;
+            z-index: -1;
+            mask-image: linear-gradient(to right, transparent 10%, black 50%, transparent 90%);
+            -webkit-mask-image: linear-gradient(to right, transparent 10%, black 50%, transparent 90%);
+        }
+
+        .left img {
+            width: 25rem;
+            height: auto;
+            object-fit: cover;
+            border-bottom: 3px solid black;
+            margin-top: 1rem;
+            border: 5px solid;
+            border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+            animation: borderAnimation 5s infinite;
+        }
+
+        @keyframes borderAnimation {
+            0% { border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); }
+            100% { border-image-source: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red); }
+        }
+
+        .name {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 2rem;
+            margin-top: 1rem;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            padding: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.267);
+        }
+
+        .designer {
+            font-weight: 100;
+            font-size: 1.25rem;
+            letter-spacing: 0.3rem;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.75rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .account {
+            text-decoration: none;
+            font-size: 1rem;
+        }
+    }
+}
+
+@keyframes textAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

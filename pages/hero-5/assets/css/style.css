@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ariel&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .btn {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+}
+
+.header .btn.active {
+    font-weight: bold;
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hero .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.hero .background .toxic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .background .partial-color {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-image: linear-gradient(to right top, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0));
+    z-index: -1;
+}
+
+.hero .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.hero .left {
+    width: 50%;
+    padding-right: 1rem;
+    text-align: right;
+}
+
+.hero .left .container {
+    position: relative;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 8px solid rgba(255, 215, 0, 1);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    max-width: 100%;
+}
+
+.hero .left .container h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 215, 0, 1);
+    position: relative;
+    display: inline-block;
+}
+
+.hero .left .container h1 span {
+    font-size: 4rem;
+}
+
+.hero .left .container .message {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.hero .left .container .content {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1rem;
+}
+
+.hero .right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.hero .right img {
+    width: 100%;
+    border: 8px solid rgba(255, 215, 0, 1);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}

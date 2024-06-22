@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.body {
+    background-color: rgb(52, 0, 52);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_title {
+     color: aliceblue;
+     font-family: Urbanist;
+     font-weight: 900;
+     font-size: 10rem;
+     padding: 5rem;
+}
+
+.title_box {
+     color: aliceblue;
+     font-family: Urbanist;
+     font-weight: 600;
+     font-size: 5rem;
+     padding-left: 5rem;
+     margin: 0;
+     padding-top: 2rem;
+}
+
+.hero {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.content1 {
+     padding-left: 60rem;
+     padding-right: 60rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+}
+
+.haaland {
+     width: 50%;
+}
+
+.card1 {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     background-color:rgb(39, 39, 39);
+     border-style: solid;
+     border-color:rgb(32, 32, 32);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction:column;
+     border-radius: 5rem;
+}
+
+.container1 {
+     color: aliceblue;
+     font-family: Urbanist;
+     font-size: 2rem;
+     margin: 0;
+     text-align: center;
+     padding-left: 10rem;
+     padding-right: 10rem;
+}
+
+.title1 {
+     font-size: 2rem;
+     margin: 0;
+     color: coral;
+}
+
+.subtitle1 {
+     font-size: 1rem;
+     margin: 0;
+     padding-bottom: 5rem;
+}
+
+.content2 {
+    padding-left: 60rem;
+    padding-right: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, 
+        violet, indigo, blue, green, yellow, orange, red);
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    border-radius: 4rem;
+    display: flex;
+}
+
+.MJ {
+    width: 30rem;
+}
+
+.container2 {
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 2rem;
+    margin: 0;
+    padding: 5rem;
+    width: 30rem;
+}
+
+.title2 {
+    font-size: 5rem;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.subtitle2 {
+    font-size: 1rem;
+    padding-bottom: 5rem;
+}
+
+.card3 {
+     background-color:black;
+}
+
+.tiger {
+     width: 50rem;
+}
+.box_text {
+     color: aliceblue;
+     font-family: Urbanist;
+     font-size: 2rem;
+     margin: 0;
+     text-align: center;
+}
+
+.card4 {
+     padding-left: 1000rem;
+     padding-right: 1000rem;
+}
+
+.picture_card2 {
+     background-color:aliceblue;
+     display: flex;
+     align-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-style: solid;
+     border-color:black;
+     border-radius: 3rem;
+}
+
+.kefu {
+     width: 40rem;
+     border-radius: 2.5rem 2.5rem 0rem 0rem;
+}
+.box_text2 {
+     font-family: Urbanist;
+     font-size: 2rem;
+     margin: 0;
+     padding: 5rem;
+}
+
+.title4 {
+     font-weight: 800;
+}
+
+.hero .card5 .card5-static {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero .card5 .card5-static .background {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hero .card5 .card5-static .background img.toxic {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero .card5 .card5-static .background .partial-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero .card5 .card5-static .middle-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.hero .card5 .card5-static .content {
+    position: relative;
+    z-index: 3;
+    padding: 20px;
+}
+
+.hero .card5 .card5-static .content .left {
+    width: 60%;
+    float: left;
+}
+
+.hero .card5 .card5-static .content .left .container {
+    padding: 20px;
+}
+
+.hero .card5 .card5-static .content .left .container h1.name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero .card5 .card5-static .content .left .container h4.message {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.hero .card5 .card5-static .content .left .container p.content {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.hero .card5 .card5-static .content .right1 {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.hero .card5 .card5-static .content .right1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero .card5 .card5-static,
+.hero .card5 .card5-static * {
+    transition: none !important;
+    animation: none !important;
+}
+
+.card1_anim {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(39, 39, 39);
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card1_anim:hover {
+    background-color: gold;
+}
+
+.card1_anim:hover .container1 {
+    transform: scale(1.1);
+}
+
+.card1_anim:hover img.haaland {
+    filter: brightness(1.5);
+}
+
+.container1 {
+    transition: transform 0.3s;
+    z-index: 1;
+}
+
+.title1,
+.subtitle1 {
+    transition: color 0.3s;
+    z-index: 1;
+}
+
+.title1:hover,
+.subtitle1:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.haaland {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.card2_anim .toggle-checkbox {
+    display: none;
+}
+
+.card2_anim .toggle-label {
+    cursor: pointer;
+}
+
+.card2_anim .content2 {
+    padding-left: 60rem;
+    padding-right: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.card2_anim .content2 {
+    padding-left: 60rem;
+    padding-right: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.card2_anim {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    border-radius: 4rem;
+    display: flex;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.card2_anim:hover {
+    transform: scale(1.2);
+}
+
+.card2_anim .MJ2 {
+    width: 30rem;
+    transition: transform 0.5s ease;
+}
+
+.card2_anim .MJ2:hover {
+    transform: rotate(5deg);
+}
+
+.card2_anim .container2 {
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    width: 30rem;
+}
+
+.card2_anim .title2 {
+    font-size: 5rem;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.card2_anim .subtitle2 {
+    font-size: 1rem;
+    padding-bottom: 5rem;
+}
+
+.card2_anim .toggle-checkbox {
+    display: none;
+}
+
+.card2_anim .toggle-label {
+    cursor: pointer;
+}
+
+.card3_anim {
+    background-color: black;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card3_anim:hover {
+    background-color: red;
+}
+
+.box_text {
+    color: aliceblue;
+    font-family: Urbanist;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.card3_anim:hover .box_text {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.card4_anim {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 6px solid transparent;
+    border-radius: 3rem;
+    transition: border-color 0.3s;
+}
+
+.card4_anim:hover {
+    border-color: red;
+    animation: rainbowBorder 1s linear infinite;
+}
+
+@keyframes rainbowBorder {
+    0%   { border-color: red; }
+    14%  { border-color: orange; }
+    28%  { border-color: yellow; }
+    42%  { border-color: green; }
+    57%  { border-color: blue; }
+    71%  { border-color: indigo; }
+    85%  { border-color: violet; }
+    100% { border-color: red; }
+}
+
+.box_text2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.title4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+}
+
+.subtitle4 {
+    font-size: 1rem;
+}
+
+.box_text2:hover .title4 {
+    color: red;
+}
+
+.card5_anim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/img/nfl.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.card5_anim:hover {
+    background-image: linear-gradient(to right top, hsl(0, 0%, 0%), #ff0000);
+}
+
+.right img {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.right img:hover {
+    transform: rotate(360deg);
+}
+
+.name, .message, .content {
+    padding: 1rem;
+}
