@@ -9,7 +9,7 @@
     <img src="./assets/img/DD-removebg-preview.png" alt="Daledo" width="auto" height="auto">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD-HandsOn2-MANANGAN</h3>
+  <h3 align="center">WD-HandsOn2-HURST</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
